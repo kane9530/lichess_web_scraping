@@ -25,6 +25,7 @@ class lichessSpider(scrapy.Spider):
                 'headline': response.xpath("//div[@class='overview']/p[@class='headline large']/text()").get(),
                 'languages': response.xpath("//tr[@class='languages']/td/text()").getall(),
                 'location': response.xpath("//span[@class='location']/text()").get(),
+                'rate': response.xpath("//tr[@class='rate']/td/text()").get(),
                 'rating_fide': response.xpath("//tr[@class='rating']/td/text()").get(),
                 'rating_bullet': response.xpath("//span[contains(@title, 'Bullet rating')]/text()").get(),
                 'rating_blitz': response.xpath("//span[contains(@title, 'Blitz rating')]/text()").get(),
