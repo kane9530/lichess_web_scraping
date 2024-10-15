@@ -1,5 +1,11 @@
 # lichess_web_scraping
 
+My writeup of this project was uploaded in the Lichess webpage here:
+https://lichess.org/@/bompipi95/blog/a-data-driven-deep-dive-into-lichess-coaches/KvYjULSR
+
+The dataset is also shared via Kaggle datasets:
+https://www.kaggle.com/datasets/kane9530/lichess-coaches-22april2024
+
 - [lichess\_web\_scraping](#lichess_web_scraping)
   - [Download Lichess Coaches csv file](#download-lichess-coaches-csv-file)
   - [Installation](#installation)
